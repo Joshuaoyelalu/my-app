@@ -4,6 +4,19 @@ import * as ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import * as serviceWorker from './serviceWorker';
+import * as React from 'react'
+
+// 1. import `ChakraProvider` component
+import { ChakraProvider } from '@chakra-ui/react'
+
+function App() {
+  // 2. Wrap ChakraProvider at the root of your app
+  return (
+    <ChakraProvider>
+      <App />
+    </ChakraProvider>
+  )
+}
 
 const container = document.getElementById('root');
 const root = ReactDOM.createRoot(container);
@@ -15,6 +28,7 @@ root.render(
   </StrictMode>
 );
 
+//
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://cra.link/PWA
