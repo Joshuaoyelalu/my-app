@@ -35,6 +35,7 @@ root.render(
 // Learn more about service workers: https://cra.link/PWA
 serviceWorker.unregister();
 //Running some code here with CodeWhisperer
+write 
 
  container =document.getAnimations;
 // If you want to start measuring performance in your app, pass a function
