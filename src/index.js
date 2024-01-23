@@ -4,7 +4,7 @@ import * as ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import * as serviceWorker from './serviceWorker';
-import * as React from 'react'
+
 
 // 1. import `ChakraProvider` component
 import { ChakraProvider } from '@chakra-ui/react'
